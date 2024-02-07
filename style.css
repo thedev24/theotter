@@ -33,6 +33,14 @@ nav .logo {
     line-height: 5rem;
     vertical-align: middle;
     font-size: 1em;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo svg {
+    height: 2.3rem;
 }
 
 .links-menu a {
