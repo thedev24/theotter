@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+.main-wrapper {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+.nav-container {
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav .logo {
+    line-height: 5rem;
+    vertical-align: middle;
+    font-size: 1em;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo svg {
+    height: 2.3rem;
+}
+
+.links-menu a {
+    color: rgb(0, 55, 62);
+}
+
+.links-menu, .login-menu {
+    display: flex;
+    gap: 1em;
+    line-height: 5rem;
+    vertical-align: middle;
+    font-size: 1em;
+    align-items: center;
+}
+
+.btn {
+    border: 1px solid rgb(214, 207, 196);
+    color: rgb(0, 55, 62);
+    line-height: 3rem;
+    padding: 0 2em;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(148, 149, 76);
+    border-color: rgb(148, 149, 76);
+    color: rgb(202, 255, 242);
+}
+
+.btn-primary {
+    color: rgb(202, 255, 242);
+    background-color: rgb(0, 55, 62);
+    border-color: rgb(0, 55, 62);
+}
+
+
+.hero, .hero-wrapper{
+    width: 100%;
+    height: calc(100vh - 10rem);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-wrapper {
+    justify-content: flex-start;
+    margin-top: 3rem;
+    text-align: center;
+    gap: 1.3rem;
+}
+
+.hero-wrapper .heading {
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 4.1rem;
+    color: rgb(0, 55, 62);
+}
+
+.hero-wrapper .sub-heading {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(31, 82, 94);
+}
+
+.hero-wrapper .btn {
+    height: auto;
+    line-height: 4rem;
+    font-size: 1.3rem;
+}
+
+.hero-wrapper .mini-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(148, 149, 76);
+}
